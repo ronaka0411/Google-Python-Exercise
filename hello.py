@@ -18,6 +18,7 @@ and run Python code; now you just need to learn Python!
 """
 
 import sys
+from userdefunc import repeat
 
 # Define a main() function that prints a little greeting.
 def main():
@@ -29,6 +30,7 @@ def main():
   else:
     name = 'World'
   print ('Hello', name)
+  print (repeat(name, True))
 
 # This is the standard boilerplate that calls the main() function.
 if __name__ == '__main__':
